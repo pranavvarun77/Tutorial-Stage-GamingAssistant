@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tutorial Stage</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      background:#111827;
+      padding:60px 20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:48px;
+      margin-bottom:15px;
+      color:#38bdf8;
+    }
+
+    header p{
+      max-width:700px;
+      margin:auto;
+      font-size:18px;
+      color:#d1d5db;
+    }
+
+    section{
+      padding:50px 20px;
+      max-width:1000px;
+      margin:auto;
+    }
+
+    .card-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+      margin-top:30px;
+    }
+
+    .card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:12px;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .card h3{
+      margin-bottom:15px;
+      color:#38bdf8;
+    }
+
+    footer{
+      background:#111827;
+      text-align:center;
+      padding:25px;
+      margin-top:40px;
+      color:#9ca3af;
+    }
+
+    a{
+      color:#38bdf8;
+      text-decoration:none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Tutorial Stage</h1>
+
+    <p>
+      Tutorial Stage is an AI-powered gaming assistant that helps players
+      learn game controls, understand gameplay objectives, and discover
+      exciting new video games to play.
+    </p>
+  </header>
+
+  <section>
+    <h2>About The App</h2>
+
+    <p style="margin-top:15px;">
+      Tutorial Stage provides gamers with a simple and interactive platform
+      where users can search for their favorite games and instantly receive
+      gameplay tutorials, control guides, and beginner-friendly instructions.
+    </p>
+
+    <div class="card-container">
+
+      <div class="card">
+        <h3>🎮 Game Controls</h3>
+        <p>
+          Learn keyboard, controller, and gameplay controls quickly and easily.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🧠 AI Assistance</h3>
+        <p>
+          Get AI-powered explanations for game mechanics and objectives.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🔥 Game Recommendations</h3>
+        <p>
+          Discover new and trending games based on your interests.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Privacy Policy</h2>
+
+    <p style="margin-top:15px;">
+      Tutorial Stage does not collect or share personal user data.
+      Any information entered into the app is only used to provide
+      gameplay guidance and recommendations.
+    </p>
+  </section>
+
+  <footer>
+    <p>
+      © 2026 Tutorial Stage | Built for Gamers
+    </p>
+  </footer>
+
+</body>
+</html>
+
